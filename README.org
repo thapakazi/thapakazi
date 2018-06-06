@@ -1,0 +1,123 @@
+#+AUTHOR: Milan Thapa
+#+DATE: Tuesday, Dec 20 2016
+#+TITLE: my digital profile
+#+OPTIONS: num:nil toc:nil H:3
+#+OPTIONS: author:nil date:nil title:nil
+
+# Fun stuffs
+#+SEQ_TODO: ❢ ☯ ⚙ ✍ ⧖ | ☺ ✔ ⌚ ✘
+
+# ########################################
+# #### latex stuffs
+# ########################################
+#+LaTeX_CLASS: article
+#+LaTeX_CLASS_OPTIONS: [12pt,a4paper]
+# #+LaTeX_CLASS_OPTIONS: [article,letterpaper,times,12pt,listings-bw,microtype]
+#+LATEX_HEADER: \linespread{1.25}
+#+LATEX_HEADER: \usepackage[scaled=.875]{inconsolata}
+
+# Set the spacing to double, as required in most papers.
+# TODO: fixme
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \onehalfspacing
+
+# Fix the margins
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+
+# For alternative coloring of table rows
+#+LATEX_HEADER: \usepackage[table]{xcolor}
+#+LATEX_HEADER: \usepackage[table]{xcolor}
+#+LATEX_HEADER: \definecolor{lightblue}{rgb}{0.93,0.95,1.0}
+#+LATEX_HEADER: \let\oldtabular\tabular
+#+LATEX_HEADER: \let\endoldtabular\endtabular
+#+LATEX_HEADER: \renewenvironment{tabular}{\rowcolors{2}{white}{lightblue}\oldtabular}{\endoldtabular}
+
+# # This line makes lists work better:
+# It eliminates whitespace before/within a list and pushes it tt the left margin
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \setlist[enumerate,itemize]{noitemsep,nolistsep}
+
+# ########################################
+# ### custom header
+# ########################################
+#+BEGIN_LATEX
+\setcounter{secnumdepth}{-1}
+\noindent
+  \renewcommand{\rmdefault}{ptm}\normalfont\upshape
+  \hspace{-.3cm}
+  \huge Milan Thapa\\
+  \large \href{https://thapakazi.github.io}{thapakazi\^}, linuxaddict, emacs aficionado \\
+\href{mailto:oemilan@gmail.com}{oemilan@gmail.com}, +977 9841 715 750\\
+Kavrepalanchok, Nepal
+\hrule\vspace{.2cm}
+#+END_LATEX
+
+
+* involvements
+  - jobs:
+    + present: :: PM, Networking & Security Expert, System Admin(DevOps)
+                 @[[http://enlivit.com/][Enliv IT^]]
+    + past: :: ~5 yrs of work experience as devops engineer @[[https://www.cloudfactory.com][cloudactory.com^]] 
+  - academic:
+    B.E. in Computer Engineering from [[http://ku.edu.np/][Kathmandu University^]]
+* in gist I love
+  - to *automate* all the things #lazyme
+  - knowledge *sharing* the easiest way possible
+    - documentation ([[https://thapakazi.github.io/][blogs]], wikis, irc, slack, youtube)
+    - transparent communication via project management tools (in github/trello)
+  - *instrumentation* & graphing on business/machine metrics/stats
+  - enhancing development workflow amalgamating prudent efforts and tools
+  - *implementing best practices* for operational & development excellence
+* ops works I love to do
+*** Automation || ops tasks like:
+    - AWS-EC2 *autoscaling* based on primitive check metrics
+    - HA (replica/failover) for production services like: MongoDB, Redis, RabbitMQ
+    # - Volume managements with lvm/raid
+    # - Databases(mongo,mysql,pg,redis) backups via old ways of dump/restore.
+    - Security is a *F-word*. First, Foremost, Fundamental & Forever
+      requirement.
+    - Pull out hardcoded secrets/credentials in code into ENVIRONMENT variables :)
+
+*** Semi-automated stuffs
+    - Literate devops practices via my favourite editor: EMACS
+    - AWS resources management (S3buckets, IAM, Route53)
+    - SSL deployments {webserver, dbservers, rabbitmq}
+* skills
+  #+LATEX: \arrayrulecolor[gray]{.9}
+    | <16>             | <20>                 | <25>                      |
+    |                  | *proficiency*        | *knows*                   |
+    |------------------+----------------------+---------------------------|
+    | *automation*     | ansible, capistrano  |                           |
+    | *aws*            | EC2, S3, IAM, VPC    | R53, RDS, Elasticache     |
+    | *languages*      | sh, golang <3, ruby  | js, solidity, python, c   |
+    | *scm*            | git                  |                           |
+    |------------------+----------------------+---------------------------|
+    | *monitoring*     | prometheus, sensu, newrelic | newrelic, nagios          |
+    | *build*          | make, jenkins        | gitlab ci/cd              |
+    | *containers*     | docker-compose /(fair)/ | kubernetes                |
+    |------------------+----------------------+---------------------------|
+    | *database*       | mongodb, postgresql /(ops)/ | mysql, redis, percona tools |
+    |------------------+----------------------+---------------------------|
+    | *blockchain*     | truffle              | ethereum: SmartContracts  |
+    |------------------+----------------------+---------------------------|
+    | *typeset*        | org-mode             | latex                     |
+    | *editor*         | emacs                | vim, nano                 |
+    | *system*         | archlinux            | debains                   |
+    | *language*       | Nepali, English      | Hindi                     |
+    |------------------+----------------------+---------------------------|
+* good old memories
+ - Hackathon victories
+   + 2015, :: [[https://www.facebook.com/lipi.the.script/][Team Lipi^]] #tourism *Ncell App Challanges*
+   + 2016, :: Team Haude #[[https://github.com/haude/osm2threejs][osm2threejs^]] *Leapfrog Hackathon*
+ - Some open-source workouts:
+   + 2016, :: got my 1st commit in [[https://github.com/ansible/ansible/pull/18306][ansible^]], though it be docs
+   + 2015, :: got a pull request accepted on [[https://github.com/sensu-plugins/sensu-plugins-redis/pull/12][sensu-plugin^]] for machine memory
+     checks
+ - Non silicon valley challenges:
+   + 2013, :: Invigilator in poll-booth for country's constitution election
+* free time engagements
+  - playing futsal, guitar strumming, kickboxing
+  - puttering hardware for fun
+    - raspberri-pi (used mostly as mpd,alarmclocks,file-sharing, staging tests) 
+    - playing with arduino [[https://github.com/open-weather/][dream_project^]]
+  - #recent tinkering with blockchain and its applications
