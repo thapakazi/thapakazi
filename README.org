@@ -52,9 +52,12 @@ Kavrepalanchok, Nepal
 \hrule\vspace{.2cm}
 #+END_LATEX
 
+
 * involvements
-  + *jobs:* Developer-Manager, devops Engineer @[[https://www.whitehatengineering.com/][WhiteHatEngineering^]] /(current)/
-      + past: :: ~5 yrs of work experience as devops engineer @[[https://www.cloudfactory.com][cloudactory.com^]] 
+  + *jobs:* Developer-Manager, devops Engineer @[[https://www.whitehatengineering.com/][WhiteHatEngineering^]]
+    /(current)/
+
+       /past:/ ~5 yrs of work experience as *devops engineer* @[[https://www.cloudfactory.com][cloudactory.com^]] 
   + *academic:*
     B.E. in Computer Engineering from [[http://ku.edu.np/][Kathmandu University^]]
 * in gist I love
@@ -63,7 +66,7 @@ Kavrepalanchok, Nepal
     - documentation ([[https://thapakazi.github.io/][blogs]], wikis, irc, slack, youtube)
     - transparent communication via project management tools (in github/trello)
   - *instrumentation* & graphing on business/machine metrics/stats
-  - enhancing development workflow amalgamating prudent efforts and tools
+  - enhancing development workflow blending prudent efforts and tools
   - *implementing best practices* for operational & development excellence
 * ops works I love to do
 *** Automation || ops tasks like:
@@ -74,10 +77,11 @@ Kavrepalanchok, Nepal
     # - Security is a *F-word*. First, Foremost, Fundamental & Forever
       requirement.
     - Pull out hardcoded secrets/credentials in code into ENVIRONMENT variables :)
+	- Build easy deployoyment pipeline via CI/CD
 
 *** Semi-automated stuffs
     - Literate *devops* practices via my favourite editor: EMACS
-    - AWS resources management (S3buckets, IAM, Route53)
+    - AWS resources management (S3buckets, IAM, Route53,VPC)
     - SSL deployments {webserver, dbservers, rabbitmq}
 * skills
   #+LATEX: \arrayrulecolor[gray]{.9}
@@ -113,8 +117,8 @@ Kavrepalanchok, Nepal
  - Non silicon valley challenges:
    + 2013, :: Invigilator in poll-booth for country's constitution election
 * free time engagements
-  - playing futsal, guitar strumming, kickboxing
+  - playing futsal, strumming guitar, kickboxing, marathon
   - puttering hardware for fun
     - raspberri-pi (used mostly as mpd,alarmclocks,file-sharing, staging tests) 
     - playing with arduino [[https://github.com/open-weather/][dream_project^]]
-  - #recent tinkering with blockchain and its applications
+  - #recent tinkering with golang, build simple stupid stuffs{[[https://gitlab.com/thapakazi/sync-songs][sync-music]],[[https://github.com/thapakazi/easyssh-go][easyssh-go]],[[https://github.com/thapakazi/gosack/tree/master][bots]]}
