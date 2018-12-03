@@ -52,13 +52,10 @@ Kavrepalanchok, Nepal
 \hrule\vspace{.2cm}
 #+END_LATEX
 
-
 * involvements
-  - jobs:
-    + present: :: PM, Networking & Security Expert, System Admin(DevOps)
-                 @[[http://enlivit.com/][Enliv IT^]]
-    + past: :: ~5 yrs of work experience as devops engineer @[[https://www.cloudfactory.com][cloudactory.com^]] 
-  - academic:
+  + *jobs:* Developer-Manager, devops Engineer @[[https://www.whitehatengineering.com/][WhiteHatEngineering^]] /(current)/
+      + past: :: ~5 yrs of work experience as devops engineer @[[https://www.cloudfactory.com][cloudactory.com^]] 
+  + *academic:*
     B.E. in Computer Engineering from [[http://ku.edu.np/][Kathmandu University^]]
 * in gist I love
   - to *automate* all the things #lazyme
@@ -74,12 +71,12 @@ Kavrepalanchok, Nepal
     - HA (replica/failover) for production services like: MongoDB, Redis, RabbitMQ
     # - Volume managements with lvm/raid
     # - Databases(mongo,mysql,pg,redis) backups via old ways of dump/restore.
-    - Security is a *F-word*. First, Foremost, Fundamental & Forever
+    # - Security is a *F-word*. First, Foremost, Fundamental & Forever
       requirement.
     - Pull out hardcoded secrets/credentials in code into ENVIRONMENT variables :)
 
 *** Semi-automated stuffs
-    - Literate devops practices via my favourite editor: EMACS
+    - Literate *devops* practices via my favourite editor: EMACS
     - AWS resources management (S3buckets, IAM, Route53)
     - SSL deployments {webserver, dbservers, rabbitmq}
 * skills
@@ -87,14 +84,14 @@ Kavrepalanchok, Nepal
     | <16>             | <20>                 | <25>                      |
     |                  | *proficiency*        | *knows*                   |
     |------------------+----------------------+---------------------------|
-    | *automation*     | ansible, capistrano  |                           |
     | *aws*            | EC2, S3, IAM, VPC    | R53, RDS, Elasticache     |
     | *languages*      | sh, golang <3, ruby  | js, solidity, python, c   |
+    | *automation*     | ansible, capistrano  |                           |
     | *scm*            | git                  |                           |
     |------------------+----------------------+---------------------------|
-    | *monitoring*     | prometheus, sensu, newrelic | newrelic, nagios          |
-    | *build*          | make, jenkins        | gitlab ci/cd              |
     | *containers*     | docker-compose /(fair)/ | kubernetes                |
+    | *monitoring*     | prometheus, sensu    | newrelic, nagios          |
+    | *build*          | make, jenkins        | gitlab ci/cd              |
     |------------------+----------------------+---------------------------|
     | *database*       | mongodb, postgresql /(ops)/ | mysql, redis, percona tools |
     |------------------+----------------------+---------------------------|
