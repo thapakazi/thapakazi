@@ -57,7 +57,7 @@ Kavrepalanchok, Nepal
   + *jobs:* Developer-Manager, devops Engineer @[[https://www.whitehatengineering.com/][WhiteHatEngineering^]]
     /(current)/
 
-       /past:/ ~5 yrs of work experience as *devops engineer* @[[https://www.cloudfactory.com][cloudactory.com^]] 
+       /past:/ ~5 yrs of work experience as *devops engineer* @[[https://www.cloudfactory.com][cloudfactory.com^]]
   + *academic:*
     B.E. in Computer Engineering from [[http://ku.edu.np/][Kathmandu University^]]
 * in gist I love
