@@ -68,7 +68,7 @@ Kavrepalanchok, Nepal
   - *instrumentation* & graphing on business/machine metrics/stats
   - enhancing development workflow blending prudent efforts and tools
   - *implementing best practices* for operational & development excellence
-* ops works I love to do
+* ops works I loved to do
 *** Automation || ops tasks like:
     - AWS-EC2 *autoscaling* based on primitive check metrics
     - HA (replica/failover) for production services like: MongoDB, Redis, RabbitMQ
