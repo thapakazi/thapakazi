@@ -52,30 +52,37 @@ Kavrepalanchok, Nepal
 \hrule\vspace{.2cm}
 #+END_LATEX
 
+# * my info
+#   :PROPERTIES:
+#   :TITLE:    My Resume
+#   :HUGO_TAGS: cv, resume, self
+#   :HUGO_TOPICS:
+#   :HUGO_FILE: about_me.md
+#   :HUGO_DATE: [2019-01-26 Sat 18:19]
+#   :END:
 
-* involvements
-  + *jobs:* Developer-Manager, devops Engineer @[[https://www.whitehatengineering.com/][WhiteHatEngineering^]]
-    /(current)/
+** involvements
+   + *jobs:* Developer-Manager, devops Engineer @[[https://www.whitehatengineering.com/][WhiteHatEngineering^]]
+     /(current)/
 
-       /past:/ ~5 yrs of work experience as *devops engineer* @[[https://www.cloudfactory.com][cloudfactory.com^]]
-  + *academic:*
-    B.E. in Computer Engineering from [[http://ku.edu.np/][Kathmandu University^]]
-* in gist I love
-  - to *automate* all the things #lazyme
-  - knowledge *sharing* the easiest way possible
-    - documentation ([[https://thapakazi.github.io/][blogs]], wikis, irc, slack, youtube)
-    - transparent communication via project management tools (in github/trello)
-  - *instrumentation* & graphing on business/machine metrics/stats
-  - enhancing development workflow blending prudent efforts and tools
-  - *implementing best practices* for operational & development excellence
-* ops works I loved to do
+        /past:/ ~5 yrs of work experience as *devops engineer* @[[https://www.cloudfactory.com][cloudfactory.com^]]
+   + *academic:*
+     B.E. in Computer Engineering from [[http://ku.edu.np/][Kathmandu University^]]
+** in gist I love
+   - to *automate* all the things #lazyme
+   - knowledge *sharing* the easiest way possible
+     - documentation ([[https://thapakazi.github.io/][blogs]], wikis, irc, slack, youtube)
+     - transparent communication via project management tools (in github/trello)
+   - *instrumentation* & graphing on business/machine metrics/stats
+   - enhancing development workflow blending prudent efforts and tools
+   - *implementing best practices* for operational & development excellence
+** ops works I loved to do
 *** Automation || ops tasks like:
     - AWS-EC2 *autoscaling* based on primitive check metrics
     - HA (replica/failover) for production services like: MongoDB, Redis, RabbitMQ
     # - Volume managements with lvm/raid
     # - Databases(mongo,mysql,pg,redis) backups via old ways of dump/restore.
-    # - Security is a *F-word*. First, Foremost, Fundamental & Forever
-      requirement.
+    - Loudmouth security as a *F-word*. First, Foremost, Fundamental & Forever requirement.
     - Pull out hardcoded secrets/credentials in code into ENVIRONMENT variables :)
 	- Build easy deployoyment pipeline via CI/CD
 
@@ -83,30 +90,29 @@ Kavrepalanchok, Nepal
     - Literate *devops* practices via my favourite editor: EMACS
     - AWS resources management (S3buckets, IAM, Route53,VPC)
     - SSL deployments {webserver, dbservers, rabbitmq}
-* skills
+** skills
   #+LATEX: \arrayrulecolor[gray]{.9}
-    | <16>             | <20>                 | <25>                      |
-    |                  | *proficiency*        | *knows*                   |
-    |------------------+----------------------+---------------------------|
-    | *aws*            | EC2, S3, IAM, VPC    | R53, RDS, Elasticache     |
-    | *languages*      | sh, golang <3, ruby  | js, solidity, python, c   |
-    | *automation*     | ansible, capistrano  |                           |
-    | *scm*            | git                  |                           |
-    |------------------+----------------------+---------------------------|
-    | *containers*     | docker-compose /(fair)/ | kubernetes                |
-    | *monitoring*     | prometheus, sensu    | newrelic, nagios          |
-    | *build*          | make, jenkins        | gitlab ci/cd              |
-    |------------------+----------------------+---------------------------|
-    | *database*       | mongodb, postgresql /(ops)/ | mysql, redis, percona tools |
-    |------------------+----------------------+---------------------------|
-    | *blockchain*     | truffle              | ethereum: SmartContracts  |
-    |------------------+----------------------+---------------------------|
-    | *typeset*        | org-mode             | latex                     |
-    | *editor*         | emacs                | vim, nano                 |
-    | *system*         | archlinux            | debains                   |
-    | *language*       | Nepali, English      | Hindi                     |
-    |------------------+----------------------+---------------------------|
-* good old memories
+    | <16>         | <20>                          | <25>                        |
+    |              | *proficiency*                 | *knows*                     |
+    |--------------+-------------------------------+-----------------------------|
+    | *aws*        | VPC, EC2, S3, IAM, RDS, Route53 | ElastiCache,DynamoDB      |
+    | *languages*  | sh, golang <3, ruby           | js, solidity, python, c     |
+    | *automation* | ansible, capistrano           |                             |
+    |--------------+-------------------------------+-----------------------------|
+    | *containers* | docker-compose /(fair)/       | kubernetes                  |
+    | *monitoring* | prometheus, sensu             | newrelic, nagios            |
+    | *build*      | make, jenkins                 | gitlab ci/cd                |
+    |--------------+-------------------------------+-----------------------------|
+    | *database*   | mongodb, postgresql /(ops)/   | mysql, redis, percona tools |
+    |--------------+-------------------------------+-----------------------------|
+    | *blockchain* | truffle                       | ethereum: SmartContracts    |
+    |--------------+-------------------------------+-----------------------------|
+    | *typeset*    | org-mode                      | latex                       |
+    | *editor*     | emacs                         | vim, nano                   |
+    | *system*     | archlinux                     | debains                     |
+    | *speech*     | Nepali, English               | Hindi                       |
+    |--------------+-------------------------------+-----------------------------|
+** good old memories
  - Hackathon victories
    + 2015, :: [[https://www.facebook.com/lipi.the.script/][Team Lipi^]] #tourism *Ncell App Challanges*
    + 2016, :: Team Haude #[[https://github.com/haude/osm2threejs][osm2threejs^]] *Leapfrog Hackathon*
@@ -116,7 +122,7 @@ Kavrepalanchok, Nepal
      checks
  - Non silicon valley challenges:
    + 2013, :: Invigilator in poll-booth for country's constitution election
-* free time engagements
+** free time engagements
   - playing futsal, strumming guitar, kickboxing, marathon
   - puttering hardware for fun
     - raspberri-pi (used mostly as mpd,alarmclocks,file-sharing, staging tests) 
