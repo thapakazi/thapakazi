@@ -1,5 +1,5 @@
-#+TITLE: my digital profile
-#+DATE: Tuesday, Dec 20 2016
+#+TITLE: Personal Summary
+#+DATE: Sunday, Nov 03 2019
 #+AUTHOR: Milan Thapa
 #+OPTIONS: num:nil toc:nil H:3
 #+OPTIONS: author:nil date:nil title:nil
@@ -46,7 +46,7 @@
 \noindent
   \renewcommand{\rmdefault}{ptm}\normalfont\upshape
   \hspace{-.3cm}
-  \huge Milan Thapa\\
+  \huge Personal Summary\\
   \large \href{https://thapakazi.github.io}{thapakazi\^}, linuxaddict, emacs aficionado \\
 \href{mailto:oemilan@gmail.com}{oemilan@gmail.com}, +977 9841 715 750\\
  [[https://goo.gl/maps/zgMMxMqWadu][🗺]] Kavrepalanchok, Nepal, https://thapakazi.github.io
@@ -67,7 +67,7 @@
      - instrumenting (over prometheus-grafana, slack alerts)
      - site reliability; high availability{via clustering}
      - patching vms, hardening os/services
-     - debugging, recusing production, exec graceful downtimes
+     - debugging, rescuing production, exec graceful downtimes
      - continuous delivery with build pipelines
      - scaling (background services)
      - debugging production failures
@@ -82,41 +82,118 @@
      - engage with community bootstrap [[https://enlivit.com/gopher-devs-nepal/][gopher-devs-nepal^]]
    
 ** in gist I love to
-   - to build simple, maintainable solutions to problem, and do iterative evolution
-   - to *automate* all the things #lazyme
-   - to explore hardcore internals of a language(golang), frameworks, learn from them 
-   - knowledge *sharing* the easiest way possible: documentation([[https://thapakazi.github.io/][blogs]], wikis, irc, youtube)
-   # - to use communicate via project management tools (in github/trello)
-   - *instrumentation* services(business metrics/stats over graphs); understand their behavior for continuous improvements.
-   - enhancing development/deployment workflow blending prudent efforts and tools
-   - *implementing best practices* for operational & development excellence
-   - literate *devops* practices via my favorite editor: EMACS
-   - *[[https://thapakazi.github.io/info/tracking_the_digital_traces/][collaborate with community via open src projects^]]*, report issues🙊 / PR :)
+   + *automate* all the things #lazyme
+   + experiment with tools
+   + explore hardcore internals of a language(golang), frameworks, learn from them 
+   + share knowledge easiest way possible: documentation([[https://thapakazi.github.io/][blogs]], wikis, irc, youtube)
+   + iteratively evolve
+
+   + *instrument* services
+     + analyse behavior for continuous improvements.
+     + measure application performance
+     + caputre metrics/stats over graphs
+   + enhancing development/deployment workflow 
+     + use prudent efforts and tools
+   + *implement best practices* for operational & development excellence
+   + tryout literate *devops* practices on EMACS
+   + *[[https://thapakazi.github.io/info/tracking_the_digital_traces/][collaborate with community via open src projects^]]*, report issues🙊 / PR :)
 ** skills
   #+LATEX: \arrayrulecolor[gray]{.9}
-    | <16>         | <20>                          | <25>                                  |
-    |              | *proficiency*                 | *knows*                               |
-    |--------------+-------------------------------+---------------------------------------|
-    | *aws*        | EKS, EC2, S3, IAM, RDS        | CloudFormation, DynamoDB, ElastiCache |
-    | *languages*  | sh, golang <3, ruby           | js, solidity, python, c               |
-    | *automation* | ansible, capistrano           |                                       |
-    | *clouds*     | aws                           | gcp                                   |
-    |--------------+-------------------------------+---------------------------------------|
-    | *containers* | docker-compose, kubernetes <3 |                                       |
-    | *monitoring* | prometheus, sensu             | newrelic, +nagios+                    |
-    | *build*      | make, jenkins                 | gitlab ci/cd                          |
-    |--------------+-------------------------------+---------------------------------------|
-    | *database*   | mongodb, postgresql /(ops)/   | redis, mysql, percona tools           |
-    |--------------+-------------------------------+---------------------------------------|
-    | *blockchain* | truffle                       | ethereum:SmartContracts, bitcoin      |
-    |--------------+-------------------------------+---------------------------------------|
-    | *typeset*    | org-mode                      | latex                                 |
-    | *editor*     | emacs                         | vim, nano                             |
-    | *system*     | archlinux                     | debains, +windows/mac+                |
-    | *speech*     | Nepali, English               | Hindi                                 |
-    |--------------+-------------------------------+---------------------------------------|
-** COMMENT old projects
-   - payment utility mobile dapp, built upon the top of ethereum
+    | <16>         | <20>                              | <25>                             |
+    |              | *proficiency*                     | *knows*                          |
+    |--------------+-----------------------------------+----------------------------------|
+    | *languages*  | sh, golang <3, ruby               | python, js, solidity, c          |
+    | *automation* | ansible, capistrano               |                                  |
+    | *iac*        | Terraform /(learning)/            | CloudFormation                   |
+    | *aws*        | EKS, EC2, S3, IAM, RDS            | DynamoDB, ElastiCache            |
+    | *gcp*        | kubernetes, clousql               |                                  |
+    | *clouds*     | aws                               | gcp                              |
+    |--------------+-----------------------------------+----------------------------------|
+    | *containers* | docker-compose, kubernetes <3     |                                  |
+    | *monitoring* | prometheus, sensu                 | newrelic, +nagios+               |
+    | *build*      | make, jenkins                     | gitlab ci/cd                     |
+    |--------------+-----------------------------------+----------------------------------|
+    | *database*   | postgresql /(essentials)/,mongodb | redis, mysql, percona tools      |
+    |--------------+-----------------------------------+----------------------------------|
+    | *blockchain* | truffle                           | ethereum:SmartContracts, bitcoin |
+    |--------------+-----------------------------------+----------------------------------|
+    | *typeset*    | org-mode                          | latex                            |
+    | *editor*     | emacs                             | vim, nano                        |
+    | *system*     | archlinux                         | debains, +windows/mac+           |
+    | *speech*     | Nepali, English                   | Hindi                            |
+    |--------------+-----------------------------------+----------------------------------|
+*** Detailed Skill Assessment
+    tldr;
+    |            |     |                                                |
+    | Terraform  | 8m  | modules: asg,gke,cloudsql,vpc; workspace       |
+    | Kubernetes | 10m | basics                                         |
+    | Ansible    | 4y  | modules, jeos framework                        |
+    | Jenkins    | 6m  |                                                |
+    | Prometheus | 2y  | custom metrics, basic alerting                 |
+    | Redis      | 10m | HA: sentinel, replication                      |
+    | Postgresql | 3y  | replication, backup-restore, auth              |
+    | AWS        | 5y  | {VPC,IAM,CodeBuild,CodePiepline,Lambda,S3,SSM} |
+    | GCP        | 6m  | kubernetes,cloudsql                            |
+    | Gitlab     | 3y  | ci/cd                                          |
+    | Github     | 5y  |                                                |
+    | Git        | 6y  | basics, rebase,cherry pick, merge-conflict     |
+    | Golang     | 2y  | channels, goroutines, sockets                  |
+    | Ruby       | 2y  | api,                                           |
+    |            |     |                                                |
+**** ❢ Ansible
+     - revise and publish jeos v2
+     - test it with packer
+**** Kubernetes
+     - deploy more production apps to cluster
+     - explore on RBAC and implement basic authorization
+     - write your own Custom Resource Definition
+     - explore istio
+     - learn kubernetes the hard way
+**** Terraform
+     - Complete Up and Running book
+     - explore the internals{workspace, drifts}
+     - learn how to write your own provider
+     - manage state file for collaboration
+     - leverage workspace
+
+
+** Development
+  + [proficiency]
+    - 2 years plus of development carrier
+    - I can write react components
+    - build api in golang, ruby
+    - write program to read and write to tcp socket
+    - write solidity contracts and use go bindings
+  + [need/want to learn]
+    - define relation between models
+    - circuit breaking
+    - TDD: write test and then code
+    - define microservice architecture
+    - write app on grpc
+    - benchmark the running application
+  + [practice]
+    - algorithms to improve performance/cost
+    - define complex data flow between react components
+    - styling on css
+
+** Operation
+  + [proficiency]
+    - provision a vm with iac
+    - provision a k8s cluster on gcp/aws
+    - define vpc on aws
+  + [revise/practice]
+    - jenkins and CI/CD
+    - terraform asg
+  + [explore]
+    - elk stack
+    - codebuild, codepiepline
+
+    
+** projects
+   - [OLD] payment utility mobile Dapp, built upon the top of ethereum
+   - Project
+     - dibya
+     - kirtan_pi
 
 ** ops works I used to chill
     - AWS-EC2 *autoscaling* based on primitive check metrics
