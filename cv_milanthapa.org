@@ -41,6 +41,7 @@
 # ########################################
 # ### custom header
 # ########################################
+#+BEGIN_LaTeX
 \setcounter{secnumdepth}{-1}
 \noindent
   \renewcommand{\rmdefault}{ptm}\normalfont\upshape
@@ -50,6 +51,7 @@
 \href{mailto:oemilan@gmail.com}{oemilan@gmail.com}, +977 9841 715 750\\
  [[https://goo.gl/maps/zgMMxMqWadu][^]] Kavrepalanchok, Nepal, https://thapakazi.github.io
 \hrule\vspace{.2cm}
+#+END_LaTeX
 
 #+LATEX_HEADER: \usepackage{enumitem}
 #+LATEX_HEADER: \setlist[enumerate,itemize]{nolistsep}
