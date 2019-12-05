@@ -13,16 +13,16 @@
 #+LaTeX_CLASS: article
 #+LaTeX_CLASS_OPTIONS: [12pt,a4paper]
 # #+LaTeX_CLASS_OPTIONS: [article,letterpaper,times,12pt,listings-bw,microtype]
-#+LATEX_HEADER: \linespread{1.25}
 #+LATEX_HEADER: \usepackage[scaled=.875]{inconsolata}
 
-# Set the spacing to double, as required in most papers.
-# TODO: fixme
-#+LATEX_HEADER: \usepackage{setspace}
-#+LATEX_HEADER: \onehalfspacing
+# spacing between the lines
+#+LATEX_HEADER: \linespread{1.25}
+# TODO: fixme, this might not be needed
+# #+LATEX_HEADER: \usepackage{setspace}
+# #+LATEX_HEADER: \singlespacing
 
 # Fix the margins
-#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
 
 # For alternative coloring of table rows
 #+LATEX_HEADER: \usepackage[table]{xcolor}
@@ -36,12 +36,11 @@
 # # This line makes lists work better:
 # It eliminates whitespace before/within a list and pushes it tt the left margin
 #+LATEX_HEADER: \usepackage{enumitem}
-#+LATEX_HEADER: \setlist[enumerate,itemize]{noitemsep,nolistsep}
+#+LATEX_HEADER: \setlist[enumerate,itemize]{nolistsep}
 
 # ########################################
 # ### custom header
 # ########################################
-#+BEGIN_LATEX
 \setcounter{secnumdepth}{-1}
 \noindent
   \renewcommand{\rmdefault}{ptm}\normalfont\upshape
@@ -49,9 +48,8 @@
   \huge Milan Thapa\\
   \large \href{https://thapakazi.github.io}{thapakazi\^}, linuxaddict, emacs aficionado \\
 \href{mailto:oemilan@gmail.com}{oemilan@gmail.com}, +977 9841 715 750\\
- [[https://goo.gl/maps/zgMMxMqWadu][🗺]] Kavrepalanchok, Nepal, https://thapakazi.github.io
+ [[https://goo.gl/maps/zgMMxMqWadu][^]] Kavrepalanchok, Nepal, https://thapakazi.github.io
 \hrule\vspace{.2cm}
-#+END_LATEX
 
 # * my info
 #   :PROPERTIES:
@@ -61,37 +59,48 @@
 #   :HUGO_FILE: about_me.md
 #   :HUGO_DATE: [2019-01-26 Sat 18:19]
 #   :END:
-** career summary
+** career summary of (last 6+yrs)
+   #+ATTR_LATEX: :options [noitemsep]
    - 2+yrs development journey:
-     - using ethereum blockchain to build dapps(mobile: react-native)
-     - contract development/deployment with truffle, remix
-     - build api(micro-services) & cli tools in golang
-     - advocate [[https://12factor.net/][12factorapp^]] development principle across team
-     - organize/collaborate team efforts to build/ship features
-     - collaborate with open-source folks, [[https://thapakazi.github.io/info/tracking_the_digital_traces/][more info...^]]
-     - engage with community bootstrap [[https://enlivit.com/gopher-devs-nepal/][gopher-devs-nepal^]]
+     - build apis (go,ruby), cli tools in golang & web (js)
+     - build dapps(mobile: react-native) using ethereum blockchain
+     - solidity contract development/deployment with truffle, remix
+     - as manager/leader organize/collaborate team efforts to build/ship features
    - 5+yrs operation journey:
      - shipping application runtimes (go,rails,js) stack over AWS(in < 15min)
      - services instrumentation (over prometheus-grafana, slack alerts)
-     - site reliability; high availability{via clustering}
-     - patching vms, hardening os/services
-     - debugging, recusing production, exec graceful downtimes
+     - site reliability; high availability{clustering,replica,scaling}
      - continuous delivery with build pipelines
-     - scaling (background services)
-     - debugging production failures
+     - security: patching vms, hardening os/services
+     - debugging, recusing production, exec graceful downtimes
      - capacity planning & infrastructure provisioning
-   
+   - misc:
+     - advocate [[https://12factor.net/][12factorapp^]] development principle across team
+     - collaborate with open-source folks, [[https://thapakazi.github.io/info/tracking_the_digital_traces/][more info...^]]
+     - bootstrap and organise events for [[https://enlivit.com/gopher-devs-nepal/][gopher-devs-nepal^]] && [[https://www.meetup.com/DevOps-Kathmandu/][DevOps-Kathmandu^]]
+
+** projects
+   - [[https://dibya.org][dibya.org]]: /in progress/ software development mentorship platform
+     - role: fullstack (react-redux, rails-api, postgres)
+     - ci/cd via gitlab to k8s cluster infra at google cloud
+   - payment utility mobile dapp, built upon the top of ethereum (client project)
+     - built on golang (api: buffalo & custom framework, cli: cobra)
+     - designed as microsevices (kyc: user, dwolla, exchange, geth) 
+     - client application: cli(go), mobile (react-native)
+   - Others: a pull request on open src projects like [[https://github.com/contribsys/faktory/pull/197][faktory]] and [[https://thapakazi.github.io/info/tracking_the_digital_traces/][more...]] 
+
 ** in gist I love to
-   - to *automate* all the things #lazyme
-   - to build simple, maintainable solutions to problem, and do iterative evolution
-   - to explore hardcore internals of a language(golang), frameworks, learn from them 
-   - knowledge *sharing* the easiest way possible: documentation([[https://thapakazi.github.io/][blogs]], wikis, irc, youtube)
-   # - to communicate my solutions via project management tools (in github/trello)
-   - *instrumentation* services(business metrics/stats over graphs); understand their behavior for continuous improvements.
-   - enhancing development-to-deployment workflow merging prudent efforts and tools
+   - *automate* all the things #lazyme and define everything as code/textfile.
+   - build simple, maintainable solutions to problem, and do iterativfc e evolution
+   - explore and learn dope internals of a language(golang), frameworks
+   - *instrumentation* services(business metrics/stats over graphs/charts); understand their behavior for continuous improvements.
    - *implementing best practices* for operational & development excellence
-   - literate *devops* practices via my favorite editor: EMACS
-   - *[[https://thapakazi.github.io/info/tracking_the_digital_traces/][collaborate with community via open src projects^]]*, report issues🙊 / PR :)
+   - *build / use / suggest awesome tools* to others and enhance efforts on development-to-deployment workflow
+   - *[[https://thapakazi.github.io/info/tracking_the_digital_traces/][collaborate with community via open src projects^]]*, report issues / PR :)
+   - *share and learn* (organise and participate on community events, publish: [[https://thapakazi.github.io/][blogs]]/[[https://www.youtube.com/channel/UCKoZYAVhKjR9pB6Kg5fBDvQ][youtube]])
+   # - practice literate *devops* via my favorite editor: EMACS
+   # - communicate my solutions via project management tools (in github/trello)
+
 ** skills
   #+LATEX: \arrayrulecolor[gray]{.9}
     | <16>             | <20>                          | <25>                             |
@@ -116,9 +125,6 @@
     | *system*         | archlinux                     | debains, +windows/mac+           |
     | *speech*         | Nepali, English               | Hindi                            |
     |------------------+-------------------------------+----------------------------------|
-** COMMENT old projects
-   - payment utility mobile dapp, built upon the top of ethereum
-
 ** ops works I used to chill
     - AWS-EC2 *autoscaling* based on primitive check metrics
     - HA (replica/failover) for production services like: MongoDB, Redis, RabbitMQ
@@ -131,10 +137,12 @@
     # - AWS resources management (S3buckets, IAM, Route53,VPC)
 
 ** involvements
-   + *jobs:* Developer-Manager, devops Engineer @[[https://www.whitehatengineering.com/][WhiteHatEngineering^]]
-     /(current)/
+   + *jobs:* Freelancing since Aug 2019 /(current)/
+     - toptal: https://www.toptal.com/resume/milan-thapa
+     - upwork: 
 
-     /past:/ ~5 yrs of work experience as *devops engineer* @[[https://www.cloudfactory.com][cloudfactory.com^]]
+   + [2018-2019] Developer-Manager, devops Engineer @[[https://www.whitehatengineering.com/][WhiteHatEngineering^]]
+   + [2013-2018] ~5 yrs of work experience as *devops engineer* @[[https://www.cloudfactory.com][cloudfactory.com^]]
    + *academic:*
      B.E. in Computer Engineering from [[http://ku.edu.np/][Kathmandu University^]]
 ** good old memories/hobbies
