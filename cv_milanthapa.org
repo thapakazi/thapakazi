@@ -22,7 +22,7 @@
 # #+LATEX_HEADER: \singlespacing
 
 # Fix the margins
-#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+LATEX_HEADER: \usepackage[margin=0.75in]{geometry}
 
 # For alternative coloring of table rows
 #+LATEX_HEADER: \usepackage[table]{xcolor}
@@ -35,8 +35,8 @@
 
 # # This line makes lists work better:
 # It eliminates whitespace before/within a list and pushes it tt the left margin
-#+LATEX_HEADER: \usepackage{enumitem}
-#+LATEX_HEADER: \setlist[enumerate,itemize]{nolistsep}
+# #+LATEX_HEADER: \usepackage{enumitem}
+# #+LATEX_HEADER: \setlist[enumerate,itemize]{nolistsep}
 
 # ########################################
 # ### custom header
@@ -51,6 +51,16 @@
  [[https://goo.gl/maps/zgMMxMqWadu][^]] Kavrepalanchok, Nepal, https://thapakazi.github.io
 \hrule\vspace{.2cm}
 
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \setlist[enumerate,itemize]{nolistsep}
+
+# credits: https://tex.stackexchange.com/a/108747
+# syntax:  \titlespacing*{<command>}{<left>}{<before-sep>}{<after-sep>}
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \titlespacing*{\section}{1ex}{0ex}{.5ex}
+#+LATEX_HEADER: \titlespacing*{\subsection} {0pt}{1.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
+
+
 # * my info
 #   :PROPERTIES:
 #   :TITLE:    My Resume
@@ -60,13 +70,12 @@
 #   :HUGO_DATE: [2019-01-26 Sat 18:19]
 #   :END:
 ** career summary of (last 6+yrs)
-   #+ATTR_LATEX: :options [noitemsep]
-   - 2+yrs development journey:
+   - *2+yrs development journey*
      - build apis (go,ruby), cli tools in golang & web (js)
      - build dapps(mobile: react-native) using ethereum blockchain
      - solidity contract development/deployment with truffle, remix
      - as manager/leader organize/collaborate team efforts to build/ship features
-   - 5+yrs operation journey:
+   - *5+yrs operation journey*
      - shipping application runtimes (go,rails,js) stack over AWS(in < 15min)
      - services instrumentation (over prometheus-grafana, slack alerts)
      - site reliability; high availability{clustering,replica,scaling}
@@ -74,7 +83,7 @@
      - security: patching vms, hardening os/services
      - debugging, recusing production, exec graceful downtimes
      - capacity planning & infrastructure provisioning
-   - misc:
+   - *misc*
      - advocate [[https://12factor.net/][12factorapp^]] development principle across team
      - collaborate with open-source folks, [[https://thapakazi.github.io/info/tracking_the_digital_traces/][more info...^]]
      - bootstrap and organise events for [[https://enlivit.com/gopher-devs-nepal/][gopher-devs-nepal^]] && [[https://www.meetup.com/DevOps-Kathmandu/][DevOps-Kathmandu^]]
