@@ -36,7 +36,7 @@
 # ########################################
 # ### custom header
 # ########################################
-#+BEGIN_LaTeX
+#+begin_latex
 \setcounter{secnumdepth}{-1}
 \noindent
   \renewcommand{\rmdefault}{ptm}\normalfont\upshape
@@ -46,7 +46,7 @@
 \href{mailto:oemilan@gmail.com}{oemilan@gmail.com}, +977 9841 715 750\\
  [[https://goo.gl/maps/zgMMxMqWadu][^]] Kavrepalanchok, Nepal, https://thapakazi.github.io
 \hrule\vspace{.2cm}
-#+END_LaTeX
+#+end_latex
 
 # # This line makes lists work better:
 # It eliminates whitespace before/within a list and pushes it tt the left margin
@@ -68,35 +68,48 @@
 #   :HUGO_FILE: about_me.md
 #   :HUGO_DATE: [2019-01-26 Sat 18:19]
 #   :END:
-** career summary
-   - *2+yrs development journey*
-     - build apis (~go,ruby~), cli tools (~bash/go~) & web-ui (~js~)
-     - build dapps(mobile: react-native) on ethereum blockchain
-     - solidity contract development/deployment with truffle, remix
-     - organize/collaborate team efforts to build/ship features
-   - *5+yrs operation journey*
-     - shipping application runtimes (go,rails,js) over AWS, GCP, Linode with ~IAC Automation~
+
+** career | summary
+   - *7+yrs operation journey*
+     - shipping application runtimes over AWS, GCP, Linode with ~IAC Automation~
      - services ~instrumentation~ (over prometheus-grafana, slack alerts)
      - ~site reliability~; high availability{clustering,replica,scaling}
      - ~continuous delivery~ with build pipelines (github, jenkins, gitlab...)
      - ~security~: patching vms, hardening os/services
-     - ~debugging~, recusing production, exec graceful downtimes
+     - ~debugging~, recusing production, exec graceful service rollouts 
      - capacity planning & infrastructure provisioning
+   - *2+yrs development journey*
+     - build service/apis (~go,ruby~), cli tools (~bash/go~) & web-ui (~js~)
+     - build dapps(react-native) on ethereum blockchain with solidity/truffle
    - *misc*
-     - advocate [[https://12factor.net/][12factorapp^]] development principle across team
+     - help companies simplify operational chores, mentor teams 
+     - help organize community meetups: [[https://www.meetup.com/DevOps-Kathmandu/][DevOps-Kathmandu^]]
+     - advocate [[https://12factor.net/][12factorapp^]] development principle
      - collaborate with open-source folks, [[https://thapakazi.github.io/info/tracking_the_digital_traces/][more info...^]]
-     - bootstrap and organise events for [[https://enlivit.com/gopher-devs-nepal/][gopher-devs-nepal^]] && [[https://www.meetup.com/DevOps-Kathmandu/][DevOps-Kathmandu^]]
 
+** involvements
+   + *jobs:*
+     * [2019-2020] DevOps as Service contractor, toptal:[[https://www.toptal.com/resume/milan-thapa][profile^]], upwork:[[https://www.upwork.com/freelancers/~0157f8deb65a74ee15][profile^]]
+     * [2018-2019] Developer-Manager, DevOps Engineer @[[https://www.whitehatengineering.com/][WhiteHatEngineering^]]
+     * [2013-2018] ~5 yrs of work experience as *devops engineer* @[[https://www.cloudfactory.com][cloudfactory.com^]]
+   + *academic:*
+     B.E. in Computer Engineering from [[http://ku.edu.np/][Kathmandu University^]]
 ** projects
    - [[https://dibya.org][dibya.org]]: ~/in progress:/~ software development mentorship platform
-     - role: fullstack owner (react-redux, rails-api, postgres)
-     - ci/cd via gitlab to k8s cluster infra at google cloud
-   - payment utility mobile dapp, built upon the top of ethereum (client project)
-     - built on golang (api: buffalo & custom framework, cli: cobra)
-     - designed as microsevices (kyc: user, dwolla, exchange, geth) 
-     - client application: cli(go), mobile (react-native)
-   - ~Others~: a pull request on open src projects like [[https://github.com/contribsys/faktory/pull/197][faktory]] and [[https://thapakazi.github.io/info/tracking_the_digital_traces/][more...]]
+     - role: owner, fullstack (react-redux, rails-api, postgres)
+   # - payment utility mobile dapp, built upon the top of ethereum (client project)
+   #   - built on golang (api: buffalo & custom framework, cli: cobra)
+   #   # - designed as microsevices (kyc: user, dwolla, exchange, geth) 
+   #   - client application: cli(go), mobile (react-native)
+   - ~Others~: involved community projects like [[https://github.com/contribsys/faktory/pull/197][faktory]] and [[https://thapakazi.github.io/info/tracking_the_digital_traces/][more...]]
 
+** Companies(#yrs):
+   - Cloudfactory(4.8)- learned devOps culutre and simplified operational chores
+   - Whitehat Engineering (1)- golang developer, infra guy
+   - Enliv(2) - Mentor, Developer  
+   - InnovaTech(1) - Site Reliability Engineering
+   - Misc: 5+ companies around world - with DevOps as Service offerings
+     
 ** in gist I love to
    - *automate* all the things #lazyme and define everything as code/textfile.
    - build simple, maintainable solutions to problem, and iteratively evolve.
@@ -113,46 +126,40 @@
   #+LATEX: \arrayrulecolor[gray]{.9}
   #+LATEX: \vspace{-3ex}
 
-    | <16>             | <20>                          | <25>                        |
-    |                  | *proficiency*                 | *knows*                     |
-    |------------------+-------------------------------+-----------------------------|
-    | *aws*            | EKS, EC2, S3, IAM, RDS        | DynamoDB, ElastiCache       |
-    | *gcp*            | k8s, codebuild,dbs,compute    | Storage/Buckets             |
-    | *iac*            | Terraform                     | CloudFormation              |
-    | *languages*      | golang <3, sh , ruby          | c, js, python, c            |
-    | *automation*     | ansible, capistrano           |                             |
-    | *containers*     | kubernetes <3, docker-compose |                             |
-    | *lib/frameworks* | react, rails, buffalo         | sinatra                     |
-    | *database*       | mongodb, postgresql /(ops)/   | redis, mysql, percona tools |
-    |------------------+-------------------------------+-----------------------------|
-    | *monitoring*     | prometheus, sensu             | newrelic, +nagios+          |
-    | *ci/cd*          | gitlab, jenkins,              | travis, circleci            |
-    |------------------+-------------------------------+-----------------------------|
-    | *blockchain*     | truffle                       | ethereum:SmartContracts     |
-    |------------------+-------------------------------+-----------------------------|
-    | *typeset*        | org-mode, md                  | latex                       |
-    | *editor*         | emacs                         | vim, nano                   |
-    | *system*         | archlinux                     | debains, +windows/mac+      |
-    | *speech*         | Nepali, English               | Hindi                       |
-    |------------------+-------------------------------+-----------------------------|
-** ops works I used to chill
-    - AWS-EC2 *autoscaling* based on primitive check metrics
-    - Improve HA (replica/failover) for production services like: MongoDB, Redis, RabbitMQ
+    | <16>             | <20>                        | <25>                        |
+    |                  | *proficiency*               | *knows*                     |
+    |------------------+-----------------------------+-----------------------------|
+    | *containers*     | kubernetes <3 (CKA/CKAD)    | docker-compose              |
+    | *iac*            | terraform,                  | packer, cloudFormation      |
+    | *automation*     | ansible, capistrano         |                             |
+    | *lib/frameworks* | react, rails, buffalo       | sinatra                     |
+    | *languages*      | golang <3, sh , ruby        | c, js, python, c            |
+    | *aws*            | EKS, EC2, S3, IAM, RDS      | DynamoDB, ElastiCache       |
+    | *gcp*            | k8s, codebuild,dbs,compute  | Storage/Buckets             |
+    | *database*       | mongodb, postgresql /(ops)/ | redis, mysql, percona tools |
+    |------------------+-----------------------------+-----------------------------|
+    | *monitoring*     | prometheus, sensu           | newrelic, +nagios+          |
+    | *ci/cd*          | github/gitlab, jenkins,  | travis, circleci            |
+    |------------------+-----------------------------+-----------------------------|
+    | *blockchain*     | truffle                     | ethereum:SmartContracts     |
+    |------------------+-----------------------------+-----------------------------|
+    | *typeset*        | org-mode, md                | latex                       |
+    | *editor*         | emacs                       | vim, nano                   |
+    | *system*         | archlinux                   | debains, +windows/mac+      |
+    | *speech*         | Nepali, English             | Hindi                       |
+    |------------------+-----------------------------+-----------------------------|
+** ops works | I enjoy doing
+    - Pack and ship apps inside containers and pet them as cattle
+    - AWS-EC2 *autoscaling* based business metrics 
+    - Improve HA (replica/failover) for production services 
     # - Volume managements with lvm/raid
     # - Databases(mongo,mysql,pg,redis) backups via old ways of dump/restore.
     - Loudmouth security as a *F-word*. First, Foremost, Fundamental & Forever requirement.
     - Pull out hardcoded secrets/credentials in code into ENVIRONMENT variables :)
-	- Build easy deployment pipeline via CI/CD tools
+	- Simplify application deployment pipelines, make it easy and continuous
     # - SSL deployments {webserver, dbservers, rabbitmq}
     # - AWS resources management (S3buckets, IAM, Route53,VPC)
 
-** involvements
-   + *jobs:* Freelancing since mid 2019 /(current)/
-     + toptal: https://www.toptal.com/resume/milan-thapa, upwork: [[https://www.upwork.com/freelancers/~0157f8deb65a74ee15][profile]]
-     + [2018-2019] Developer-Manager, devops Engineer @[[https://www.whitehatengineering.com/][WhiteHatEngineering^]]
-     + [2013-2018] ~5 yrs of work experience as *devops engineer* @[[https://www.cloudfactory.com][cloudfactory.com^]]
-   + *academic:*
-     B.E. in Computer Engineering from [[http://ku.edu.np/][Kathmandu University^]]
 ** good old memories/hobbies
  - hackathon victories: [[https://www.facebook.com/lipi.the.script/][Team Lipi^]] , #[[https://github.com/haude/osm2threejs][osm2threejs^]] 
    # + 2015, :: [[https://www.facebook.com/lipi.the.script/][Team Lipi^]] #tourism *Ncell App Challanges*
