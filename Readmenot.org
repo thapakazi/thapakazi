@@ -1,0 +1,15 @@
+#+TITLE: cv
+#+DATE: Sunday, Nov 03 2019
+#+AUTHOR: Milan Thapa
+#+OPTIONS: num:nil toc:nil H:3
+#+OPTIONS: author:nil date:nil title:nil
+
+* If you came this far here is my cv: [[./cv_milanthapa.org]]
+** my CV in org mode + LaTeX
+   #+begin_quote
+   you might be wonder why, because I can :P
+   #+end_quote
+** COMMENTS What works environment excites me ?
+   I would always look forward to work with
+     - team where, everyone is self dirven and always ready to act in cross function
+
